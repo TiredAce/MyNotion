@@ -1,6 +1,6 @@
 # MyNotion
 ### 项目简介：
-本项目意在记录日常计算机学习笔记，刷题博客等。
+本项目意在记录自学计算机学习笔记，算法题个人题解等内容。
 
 ---
 
@@ -10,9 +10,9 @@
 
 * [C++ Prime Plus](https://github.com/TiredAce/MyNotion/tree/master/C%2B%2B%E7%AC%94%E8%AE%B0/C%2B%2B%20Prime%20Plus)
 
-#### Algorithm
+#### Algorithm Competition
 
-* [codeforce]()
+* [CodeForce]()
 
 ---
 
