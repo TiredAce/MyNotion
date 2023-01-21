@@ -1,8 +1,8 @@
 ## Codeforces Round #843 (Div. 2)
 
->[A1. Gardener and the Capybaras (easy version)](# A1)
+>[A1. Gardener and the Capybaras (easy version)](#A1)
 >
->[A2. Gardener and the Capybaras (hard version)](# A2)
+>[A2. Gardener and the Capybaras (hard version)](#A2)
 
 <h3 id = "A1"> A1. Gardener and the Capybaras (easy version)</h3>
 
