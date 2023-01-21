@@ -10,9 +10,9 @@
 
 * [C++ Prime Plus](https://github.com/TiredAce/MyNotion/tree/master/C%2B%2B%E7%AC%94%E8%AE%B0/C%2B%2B%20Prime%20Plus)
 
-#### Algorithm Competition
+#### CodeForce
 
-* [CodeForce]()
+* [Codeforces Round #843 (Div. 2)]()
 
 ---
 
