@@ -12,22 +12,26 @@
 
 #### CodeForce
 
-* [Codeforces Round #843 (Div. 2)]()
+* [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithm%E7%AC%94%E8%AE%B0/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
 
 ---
 
 ### 项目日志：
 
-#### 2023-1-19
+#### 2023 -01-21
 
->1.完成C++ Prime Plus第4章总结
+>1. 复盘`Codeforces Round #843 (Div. 2)`
 
-#### 2023-1-15
+#### 2023-01-19
+
+>1. 完成`C++ Prime Plus`第4章总结
+
+#### 2023-01-15
 
 > 1. 新建该项目
 >
-> 2. 添加Algorithm笔记模块
+> 2. 添加`Algorithm`笔记模块
 >
-> 3. 添加C++笔记模块
+> 3. 添加`C++`笔记模块
 >
 

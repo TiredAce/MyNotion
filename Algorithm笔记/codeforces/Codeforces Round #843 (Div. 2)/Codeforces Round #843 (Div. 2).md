@@ -1,10 +1,8 @@
-## Codeforces Round #843 (Div. 2)
+## [Codeforces Round #843 (Div. 2)](https://codeforces.com/contest/1775)
 
->[A1. Gardener and the Capybaras (easy version)](#A1)
->
->[A2. Gardener and the Capybaras (hard version)](#A2)
+>[A1. Gardener and the Capybaras](#A1)
 
-<h3 id = "A1"> A1. Gardener and the Capybaras (easy version)</h3>
+<h3 id = "A1"> A1. Gardener and the Capybaras</h3>
 
 **题意**：给定一个字符串`S`，字符串由字符`a`和`b`组成，要求将字符串`S`切割为三段`A`、`B`、`C`，满足$a \le b$ 且$c \le b$，或满足$a \ge b$ 且$c \ge b$。
 
