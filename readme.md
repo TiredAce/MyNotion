@@ -1,26 +1,26 @@
 # MyNotion
-### 项目简介：
+## 项目简介：
 本项目意在记录自学计算机学习笔记，算法题个人题解等内容。
 
 ---
 
-### 模块：
+## 模块：
 
-#### C++
+### C++
 
 * [C++ Prime Plus](https://github.com/TiredAce/MyNotion/tree/master/C%2B%2B%E7%AC%94%E8%AE%B0/C%2B%2B%20Prime%20Plus)
 
-#### CodeForce
+### CodeForce
 
 * [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithm%E7%AC%94%E8%AE%B0/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
 
-#### Android
+### Android
 
 * [第一行代码Android](https://github.com/TiredAce/MyNotion/tree/master/Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android)
 
 ---
 
-### 项目日志：
+## 项目日志：
 
 #### 2023-02-1
 
