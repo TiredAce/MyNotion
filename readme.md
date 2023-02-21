@@ -14,9 +14,17 @@
 
 * [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithm%E7%AC%94%E8%AE%B0/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
 
+#### Android
+
+* []()
+
 ---
 
 ### 项目日志：
+
+#### 2023-02-1
+
+> 1.添加`Android`模块
 
 #### 2023 -01-21
 
@@ -33,4 +41,3 @@
 > 2. 添加`Algorithm`笔记模块
 >
 > 3. 添加`C++`笔记模块
->
