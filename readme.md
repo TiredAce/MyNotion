@@ -1,5 +1,5 @@
 # MyNotion
-## 项目简介：
+### 项目简介：
 本项目意在记录自学计算机学习笔记，算法题个人题解等内容。
 
 ---
@@ -18,13 +18,19 @@
 
 * [第一行代码Android](https://github.com/TiredAce/MyNotion/tree/master/Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android)
 
+### Java
+
+* [Java核心思想]()
+
 ---
 
 ## 项目日志：
 
 #### 2023-02-1
 
-> 1.添加`Android`模块
+> 1. 添加`Android`模块
+>
+> 2. 添加`Java`模块
 
 #### 2023 -01-21
 
