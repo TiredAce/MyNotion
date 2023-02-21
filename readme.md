@@ -16,7 +16,7 @@
 
 #### Android
 
-* []()
+* [第一行代码Android](https://github.com/TiredAce/MyNotion/tree/master/Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android)
 
 ---
 
