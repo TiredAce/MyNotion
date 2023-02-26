@@ -20,7 +20,7 @@
 
 ### Java
 
-* [Core of Java I]()
+* [Core of Java I](https://github.com/TiredAce/MyNotion/tree/master/Java/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3)
 
 ### SpringBoots
 
