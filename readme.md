@@ -35,6 +35,10 @@
 
 ## 项目日志：
 
+#### 2023-02-26
+
+>1. 完成`Core of Java`[第3章](https://github.com/TiredAce/MyNotion/blob/master/Java/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3/%E7%AC%AC3%E7%AB%A0%20Java%E7%9A%84%E5%9F%BA%E6%9C%AC%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%BB%93%E6%9E%84.md)整理
+
 #### 2023-02-22
 
 >1. 完成`First line of Android`[第1章](https://github.com/TiredAce/MyNotion/blob/master/Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android/%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81Android/%E7%AC%AC1%E7%AB%A0%20%E7%AC%AC%E4%B8%80%E8%A1%8C%E4%BB%A3%E7%A0%81.md)学习
