@@ -28,12 +28,20 @@
 
 ### 计算机组成原理
 
-* [数字设计和计算机体系结构]()
+* [数字设计和计算机体系结构](https://github.com/TiredAce/MyNotion/tree/master/%E8%AE%A1%E7%BB%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
 
 
 ---
 
 ## 项目日志：
+
+#### 2023-02-28
+
+>1. 添加`计算机组成原理`笔记模块
+
+#### 2023-02-27
+
+>1. 完成`Core of Java`[第4章](https://github.com/TiredAce/MyNotion/blob/master/Java/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3/Java%E6%A0%B8%E5%BF%83%E6%80%9D%E6%83%B3/%E7%AC%AC4%E7%AB%A0%20%E5%AF%B9%E8%B1%A1%E4%B8%8E%E7%B1%BB.md)整理
 
 #### 2023-02-26
 
