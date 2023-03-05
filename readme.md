@@ -26,14 +26,35 @@
 
 * [SpringBoots项目开发]()
 
+### OpenCV
+
+* [OpenCV3编程入门]()
+
 ### 计算机组成原理
 
-* [数字设计和计算机体系结构](https://github.com/TiredAce/MyNotion/tree/master/%E8%AE%A1%E7%BB%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
+* [计算机组成原理](https://github.com/TiredAce/MyNotion/tree/master/%E8%AE%A1%E7%BB%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
+* [数字设计与计算机体系结构]()
+
+### 数据结构
+
+* [数据结构教程]()
+
+### 离散数学
+
+* [离散数学及其应用]()
+
+### 单片机
+
+* [单片机原理及应用教程]()
 
 
 ---
 
 ## 项目日志：
+
+#### 2023-03-02
+
+>1. 添加`OpenCV`模块
 
 #### 2023-02-28
 
