@@ -33,7 +33,7 @@
 ### 计算机组成原理
 
 * [计算机组成原理](https://github.com/TiredAce/MyNotion/tree/master/%E8%AE%A1%E7%BB%84/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%84%E6%88%90%E5%8E%9F%E7%90%86)
-* [数字设计与计算机体系结构]()
+* [数字设计与计算机体系结构](https://github.com/TiredAce/MyNotion/tree/master/%E8%AE%A1%E7%BB%84/%E6%95%B0%E5%AD%97%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/%E6%95%B0%E5%AD%97%E8%AE%BE%E8%AE%A1%E4%B8%8E%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BB%93%E6%9E%84%E4%BD%93%E7%B3%BB)
 
 ### 数据结构
 
