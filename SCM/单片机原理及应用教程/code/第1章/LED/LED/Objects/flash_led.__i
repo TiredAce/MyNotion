@@ -1,0 +1,1 @@
+"flash_led.c" OPTIMIZE (8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\flash_led.lst) TABS (2) OBJECT(.\Objects\flash_led.obj)

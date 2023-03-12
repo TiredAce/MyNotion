@@ -1,0 +1,46 @@
+C51 COMPILER V9.54   FLASH_LED                                                             03/13/2023 00:56:01 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE FLASH_LED
+OBJECT MODULE PLACED IN .\Objects\flash_led.obj
+COMPILER INVOKED BY: F:\Keil5\C51\BIN\C51.EXE flash_led.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\f
+                    -lash_led.lst) TABS(2) OBJECT(.\Objects\flash_led.obj)
+
+line level    source
+
+   1          #include <reg52.h>
+   2          #define uint unsigned int
+   3          sbit D1 = P1^0;
+   4          void delay(uint z);
+   5          
+   6          void main()
+   7          {
+   8   1        while (1)
+   9   1        {
+  10   2          D1 = 0;
+  11   2          delay(500);
+  12   2          D1 = 1;
+  13   2          delay(500);
+  14   2        }
+  15   1      }
+  16          
+  17          void delay(uint z)
+  18          {
+  19   1        uint x, y;
+  20   1        for (x = z; x > 0; x --)
+  21   1          for (y = 110; y > 0; y --);
+  22   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     50    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
