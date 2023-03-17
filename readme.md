@@ -8,7 +8,7 @@
 
 #### C++
 
-* [C++ Prime Plus](https://github.com/TiredAce/MyNotion/tree/master/CPlusPlus/C%2B%2B%20Prime%20Plus/C%2B%2B%20Prime%20Plus)
+* [C++ Prime Plus](https://github.com/TiredAce/MyNotion/tree/master/C%2B%2B/C%2B%2B%20Prime%20Plus/C%2B%2B%20Prime%20Plus)
 
 #### Java
 
@@ -53,7 +53,7 @@
 
 #### CodeForce
 
-* [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithm%E7%AC%94%E8%AE%B0/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
+* [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
 
 
 ## CV
