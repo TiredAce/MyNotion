@@ -18,7 +18,7 @@
 
 #### Linux
 
-* [Shell 语法]()
+* [Shell 语法](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Shell/Shell%20%E8%AF%AD%E6%B3%95.md)
 
 #### 计算机组成原理
 
@@ -27,7 +27,7 @@
 
 #### 数据结构与算法
 
-* [Algorithm and Data Structures set]()
+* [Algorithm and Data Structures set](https://github.com/TiredAce/MyNotion/tree/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set)
 
 #### 离散数学
 
