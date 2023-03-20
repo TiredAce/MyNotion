@@ -16,9 +16,10 @@
 
 ## 计算机基础
 
-#### Linux
+#### Tools
 
-* [Shell 语法](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Shell/Shell%20%E8%AF%AD%E6%B3%95.md)
+* [Shell](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Shell/Shell%20%E8%AF%AD%E6%B3%95.md)
+* [Vim](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Vim/Vim.md#last)
 
 #### 计算机组成原理
 
