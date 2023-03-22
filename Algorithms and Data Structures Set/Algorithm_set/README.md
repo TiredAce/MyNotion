@@ -19,9 +19,9 @@
 
 ## 数据结构
 
-* [Part1 线性表]()
+* [Part1 线性表](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set/%E7%BA%BF%E6%80%A7%E8%A1%A8.md)
 
-* [Part2 栈与队列]()
+* [Part2 栈与队列](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97.md)
 
 * [Part3 Trie]()
 

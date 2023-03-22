@@ -38,6 +38,11 @@
 
 * [单片机原理及应用教程](https://github.com/TiredAce/MyNotion/tree/master/SCM/%E5%8D%95%E7%89%87%E6%9C%BA%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8%E6%95%99%E7%A8%8B/%E5%8D%95%E7%89%87%E6%9C%BA%E5%8E%9F%E7%90%86%E5%8F%8A%E5%BA%94%E7%94%A8%E5%8E%9F%E6%95%99%E7%A8%8B)
 
+## 深度学习
+
+* [吴恩达机器学习]()
+* [深入浅出shen'du]()
+
 ## 项目开发
 
 
