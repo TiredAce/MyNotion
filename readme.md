@@ -40,8 +40,8 @@
 
 ## 深度学习
 
-* [吴恩达机器学习]()
-* [深入浅出shen'du]()
+* [吴恩达机器学习](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
+* [深入浅出神经网络]()
 
 ## 项目开发
 
