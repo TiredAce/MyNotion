@@ -1,4 +1,4 @@
-# Algorithms and Data Structures Set
+# Data Structures and Algorithms Set
 
 本子项目专门用来收录算法题，以及各类算法书籍、数据结构书籍的笔记。
 

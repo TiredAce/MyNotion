@@ -1,4 +1,4 @@
-## Part1 神经网络和深度学习（Neural Networks and Deep Learning）···
+## Part1 神经网络和深度学习（Neural Networks and Deep Learning）
 
 >[1.1 什么是神经网络](#1.1)
 >

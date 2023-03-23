@@ -28,7 +28,7 @@
 
 #### 数据结构与算法
 
-* [Algorithm and Data Structures set](https://github.com/TiredAce/MyNotion/tree/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set)
+* [Data Structures and Algorithms](https://github.com/TiredAce/MyNotion/tree/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set)
 
 #### 离散数学
 
