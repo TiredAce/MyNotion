@@ -19,7 +19,7 @@
 #### Tools
 
 * [Shell](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Shell/Shell%20%E8%AF%AD%E6%B3%95.md)
-* [Vim](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Vim/Vim.md#last)
+* [Vim](https://github.com/TiredAce/MyNotion/blob/master/Linux/Tools/Vim/Vim.md)
 
 #### 计算机组成原理
 
@@ -40,8 +40,14 @@
 
 ## 深度学习
 
-* [吴恩达机器学习](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
+* [吴恩达深度学习](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0)
 * [深入浅出神经网络]()
+
+## 计算机视觉
+
+#### OpenCV
+
+* [OpenCV3编程入门](https://github.com/TiredAce/MyNotion/tree/master/openCV/OpenCV3%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/OpenCV3%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8)
 
 ## 项目开发
 
@@ -60,13 +66,6 @@
 #### CodeForce
 
 * [Codeforces Round #843 (Div. 2)](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/codeforces/Codeforces%20Round%20%23843%20(Div.%202)/Codeforces%20Round%20%23843%20(Div.%202).md)
-
-
-## CV
-
-#### OpenCV
-
-* [OpenCV3编程入门](https://github.com/TiredAce/MyNotion/tree/master/openCV/OpenCV3%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/OpenCV3%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8)
 
 ---
 

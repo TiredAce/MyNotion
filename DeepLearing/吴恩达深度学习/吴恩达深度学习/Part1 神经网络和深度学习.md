@@ -21,7 +21,9 @@
 
 实际上的神经网络，就是在大量训练集下，通过计算从x到y的精准映射函数。
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322223702026.png" alt="image-20230322223702026" style="zoom:67%;" width="600px"/>
+</div>
 
 <h3 id = "1.2">
 1.2 逻辑回归
@@ -31,13 +33,17 @@
 
 例如给出一张图片，你要得到这张图片是否是一只猫。
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322230834256.png" alt="image-20230322230834256" style="zoom:50%;" />
+</div>
 
 #### 1.2.1 训练样本
 
 在计算机中，保存一张图片，要保存三个独立矩阵，分别对应红、绿、蓝三个颜色通道。
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322232548581.png" alt="image-20230322232548581" style="zoom:50%;" />
+</div>
 
 假设计算机张每个独立矩阵是$64 \times 64$,现在将图片中所有的数据放入一个特征矩阵之中，那么这个特征矩阵就有$64 \times 64 \times 3=12288$个元素单元，因此输入的特征向量的维度为`12288`。
 
@@ -59,7 +65,9 @@ $$\hat{y} = w^{T}x+b$$
 
 $$\hat{y} = \sigma(w^Tx+b)$$
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323160133930.png" alt="image-20230323160133930" width="400px"  />
+</div>
 
 $\sigma(z)=\frac{1}{1 + e^{-z}}$
 
@@ -93,21 +101,29 @@ $$J(w,b)=\frac{1}{m}\sum^{m}_{i=1}L(\hat{y}^{(i)},y^{(i)})$$
 
 我们将成本函数的对应的图像展示，如下图所示：
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323164703847.png" alt="image-20230323164703847" width="400px" />
+</div>
 
 该函数类型为凸函数，凸函数的只存在一个最优解，在其底部。凸函数的这一性质是我们使用逻辑回归的这一特定成本函数$J$的重要原因之一。
 
 为了找到更好的参数值，我们要做的就是用某初始值，初始化$w$和$b$,对于逻辑回归而言，几乎是任意的初始化方法都有效。梯度下降法所做的就是从初始点开始朝最陡的下坡方向走一步。经过多次迭代之后，到达局部最优解或是全局最优解。
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165433920.png" alt="image-20230323165433920" width="400px" />
+</div>
 
 为了更好的说明，我们来看一些函数。如下图所示：
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165640131.png" alt="image-20230323165640131" width="300px"/>
+</div>
 
 我们将$b$维度舍去，留下了$w$维度，得到如上形式的成本函数，我们的目标是找到成本函数的最小值，通过梯度下降法，我们将重复进行如下操作：
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165853174.png" alt="image-20230323165853174" width="400px" />
+</div>
 
 在上述公式中有两点需要注意，首先$\alpha$表示学习率，学习率可以控制每次迭代或者是梯度下降法中的步长，至于$\alpha$如何选择在后文叙述。其次这里的导数，这就是对参数$w$的更新或者变化量，当我们编写代码时，我们用`dw`来表示导数。因此我们用$w:=w-\alpha dw$来表示。同理也可以用这种方式表示$b$。
 
@@ -115,7 +131,9 @@ $$J(w,b)=\frac{1}{m}\sum^{m}_{i=1}L(\hat{y}^{(i)},y^{(i)})$$
 
 假设我们有这样一个函数$J(a,b,c)=3(a+bc)$,那么我们就能画出这样的流程图。
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323172053093.png" alt="image-20230323172053093" width="500px" />
+</div>
 
 那么如果我们要计算成本函数$J$相对于每个目标函数的变化情况，我们就能使用*微积分中的链式法则*，方向的通过计算图来计算出变化率。
 
@@ -135,7 +153,9 @@ $$\hat{y}=a=\sigma(z)$$
 
 $$L(a,y)=-(yloga+(1-y)log(1-a))$$
 
+<div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323175716700.png" alt="image-20230323175716700" width="600px" />
+</div>
 
 #### 1.2.8 向量化
 
