@@ -156,7 +156,32 @@ $$L(a,y)=-(yloga+(1-y)log(1-a))$$
 <div align=center>
 <img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323175716700.png" alt="image-20230323175716700" width="600px" />
 </div>
+通过反向传播法，得到`da`、`dz`等等。
 
 #### 1.2.8 向量化
 
 假如有$m$个样本，每个样本有$n$个特征，那么如果要计算梯度下降法所需要的算法时间复杂度为$O(nm)$,但是在深度学习中，样本的数量会十分大，那么如果使用`for`循环就会让训练的时间大幅度提升，因此我们使用向量化的方法来加速计算。
+
+举个例子，如果按照常规的代码去计算成本函数，代码的编写如下：
+
+<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230324214720030.png" alt="image-20230324214720030" width="800px" /></div>
+
+其中能看到外层的`for`循环用来遍历所有的样本，内层的循环用来遍历所有的参数。
+
+为了改进上述代码，我们做出以下修正，为了修正内层的循环，我们不会去显式地把`dw1`、`dw2`等等初始化成`0`。通常采用`dw=np.zeros((n_x, 1))`的方式定义一个矩阵。这样就不用对单个变量进行运算。
+
+<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230324215529124.png" alt="image-20230324215529124" width="800px"/></div>
+
+接下来解释如何优化掉第一层循环，之前我们定义过了训练样本矩阵$X$，我们可以通过如下变换得到$Z$:
+$$
+Z=\left[ z^{\left( 1 \right)}z^{\left( 2 \right)}...z^{\left( m \right)} \right] =w^TX+\left[ b\,\,b\,\,... b \right]
+$$
+上述的数学公式能在`python`中使用如下代码解决：
+
+```python
+z = np.dot(w.T, x) + b
+```
+
+在上述代码中，`b`是一个常量，当一个常量与一个矩阵相加，`b`会自动拓展成一个$1 \times m$的矩阵，这种机制叫做`Broadcasting`广播机制。
+
+最后通过激活函数得到$A$。这样的方法十分高效。
