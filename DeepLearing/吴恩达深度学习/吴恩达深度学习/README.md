@@ -18,9 +18,9 @@
 
 本项目作业部分只用来记录编程部分，理论题只记录需要理解的题目。
 
-* [Week 2 Quiz - Neural Network Basics]()
+* [Week 2 Quiz - Neural Network Basics](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/01.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/2.%E7%AC%AC%E4%BA%8C%E5%91%A8%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
 
-* [Week 3 Quiz - Shallow Neural Networks]()
+* [Week 3 Quiz - Shallow Neural Networks](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/01.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/3.%E7%AC%AC%E4%B8%89%E5%91%A8%20%E6%B5%85%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)
 
 #### 优秀博客
 
