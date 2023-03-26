@@ -304,10 +304,10 @@ a = max(0, z)
 $$
 
 $$
-\nabla_{x} \operatorname{ReLU}(x)=\left\{\begin{array}{ll}
+\nabla_{x} \operatorname{ReLU}(x)=\{\begin{array}{ll}
 1 & \text { if } x \geqslant 0 \\
 0 & \text { if } x<0
-\end{array}\right.
+\end{array}.
 $$
 只要`z`为正，导数就是`1`。当`z`为负，导数为`0`。
 
