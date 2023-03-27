@@ -1,0 +1,8 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../../../../../../../:\StudySpace\MyNotion\DeepLearing\吴恩达深度学习\吴恩达深度学习\homework\01.机器学习和神经网络\4.第四周 深层神经网络\.idea/dataSources/
+/dataSources.local.xml
+# 基于编辑器的 HTTP 客户端请求
+/httpRequests/
