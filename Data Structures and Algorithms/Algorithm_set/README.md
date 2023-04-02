@@ -4,11 +4,11 @@
 
 ## 基础算法
 
-* [Part1 前缀和与差分]()
+* [Part1 前缀和与差分](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86)
 
-* [Part3 二分]()
+* [Part3 二分](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E4%BA%8C%E5%88%86)
 
-* [Part4 双指针]()
+* [Part4 双指针](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E5%8F%8C%E6%8C%87%E9%92%88)
 
 * [Part5 递推与递归]()
 * [Part6 排序]()
@@ -19,9 +19,9 @@
 
 ## 数据结构
 
-* [Part1 线性表](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set/%E7%BA%BF%E6%80%A7%E8%A1%A8.md)
+* [Part1 线性表](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E7%BA%BF%E6%80%A7%E8%A1%A8)
 
-* [Part2 栈与队列](https://github.com/TiredAce/MyNotion/blob/master/Algorithms%20and%20Data%20Structures%20Set/Algorithm_set/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97.md)
+* [Part2 栈与队列](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E6%A0%88%E4%B8%8E%E9%98%9F%E5%88%97)
 
 * [Part3 Trie]()
 
@@ -36,7 +36,7 @@
 
 ## 图论
 
-* [Part1 BFS与DFS]()
+* [Part1 BFS与DFS](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/DFS%E5%92%8CBFS)
 * [Part2 最短路]()
 * [Part3 最小生成树]()
 * [Part4 拓扑排序]()
