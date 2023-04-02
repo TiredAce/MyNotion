@@ -62,9 +62,6 @@ void dfs(int x)
 
 `DFS`序的特点是：每个结点x的编号在序列中恰好出现两次。设这两次出现的位置是`L[x]`与`R[x]`，那么闭区间`[l[x], R[x]]`就是以`x`为根的子树的`DFS`序。这使我们子啊很多与树相关的问题中，可以通过`DFS`序把子树统计转化为序列上的区间统计。
 
-<div align=center>
-<img src="./../assets/blog_res/dfs和bfs.assets/image-20230323221840701.png" alt="image-20230323221840701" width="400px" />
-</div>
 
 3. 树的深度
 

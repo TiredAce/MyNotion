@@ -1,4 +1,4 @@
-# 双指针
+# Part4 双指针
 
 >[1. 双指针](#1)
 >
@@ -26,12 +26,13 @@
 
 **思路**：十分基础的双指针。。。
 
-[Code:2_1.cpp]()
+[Code:2_1.cpp](https://github.com/TiredAce/MyNotion/blob/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E5%8F%8C%E6%8C%87%E9%92%88/2_1.cpp)
 
 <h3 id = "2.2">
 2.2 日志统计
 </h3>
-
 **题目描述**：小明维护着一个程序员论坛。现在他收集了一份”点赞”日志，日志共有$N$行。其中每一行的格式是：`ts id  `表示在 $ts$ 时刻编号 $id$ 的帖子收到一个”赞”。现在小明想统计有哪些帖子曾经是”热帖”。如果一个帖子曾在任意一个长度为 $D$ 的时间段内收到不少于 $K$ 个赞，小明就认为这个帖子曾是”热帖”。具体来说，如果存在某个时刻 $T$ 满足该帖在 $[T,T+D)$ 这段时间内(注意是左闭右开区间)收到不少于 $K$ 个赞，该帖就曾是”热帖”。给定日志，请你帮助小明统计出所有曾是”热帖”的帖子编号。
 
 **思路**：读入所有的日志，根据时间顺序排序，然后使用双指针算法，计算时间区间中是否是热帖。
+
+[Code:2_2.cpp](https://github.com/TiredAce/MyNotion/blob/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E5%8F%8C%E6%8C%87%E9%92%88/2_2.cpp)
