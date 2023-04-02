@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Set
 
-本子项目专门用来收录算法题，以及各类算法书籍、数据结构书籍的笔记。
+本项目从`2023-3-31`开始，用来收录各数据结构与算法模块的知识点以及常见的算法模型。
 
 ## 基础算法
 
@@ -10,12 +10,12 @@
 
 * [Part4 双指针](https://github.com/TiredAce/MyNotion/tree/master/Data%20Structures%20and%20Algorithms/Algorithm_set/%E5%8F%8C%E6%8C%87%E9%92%88)
 
-* [Part5 递推与递归](./递推与递归)
-* [Part6 排序]()
-* [Part7 位运算]()
-* [Part8 倍增]()
-* [Part9 贪心]()
-* [Part10 构造]()
+* [Part5 递归与递推](./递归与递推)
+* [Part6 排序](./排序)
+* [Part7 位运算](./位运算)
+* [Part8 倍增](./倍增)
+* [Part9 贪心](./贪心)
+* [Part10 构造](./构造)
 
 ## 数据结构
 
@@ -27,10 +27,10 @@
 
 * [Part4 KMP]()
 
-* [Part5 并查集]()
+* [Part5 并查集](./并查集)
 * [Part6 树]()
 * [Part7 二叉堆]()
-* [Part8 哈希表]()
+* [Part8 Hash](./Hash)
 * [Part9 树状数组]()
 * [Part10 线段树]()
 
