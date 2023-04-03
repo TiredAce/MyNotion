@@ -35,7 +35,7 @@
 
 #### Data Structures and Algorithms
 
-* [Data Structures and Algorithms set](./Data Structures and Algorithms/Algorithm_set)
+* [Data Structures and Algorithms set](./"Data Structures and Algorithms"/Algorithm_set)
 
 #### SMC
 
