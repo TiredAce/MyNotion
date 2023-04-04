@@ -70,3 +70,40 @@ bool find(int x)
 ### 1.2 字符串Hash
 
 字符串`Hash`函数把一个任意长度的字符串映射成一个非负整数，并且冲突的概率几乎为零。
+
+**取一固定值P，把字符串看作P进制数，并分配一个大于0的数值，代表每种字符。再去一个固定值M，求出该P进制对M的余数，作为该字符串的Hash值。**根据经验$P=131$或$P=13331$，$M=2^{64}$，所以直接用`unsigned long long`类型存储`Hash`值，通过上溢来进行取模（避免了耗时较长的取模操作）。
+
+#### 1.2.1 字符串Hash的实现
+
+1. 初始化字符串的`Hash`值
+
+```c++
+typedef unsigned long long ULL;
+
+const int P = 131, N = 1e5 + 10;
+
+char str[N];
+ULL p[N], h[N];  // P数组存储P进制阶数下的值，H存储字符串前缀的hash值
+
+void init()
+{
+    cin >> (str + 1);
+    p[0] = 1;
+    for (int i = 1; i <= n; i ++)
+    {
+        h[i] = h[i - 1] * P + str[i];
+        p[i] = p[i - 1] * P;
+    }
+}
+```
+
+2. 返回一段字符串的`Hash`值。
+
+```c++
+ULL get(int l, int r)
+{
+    return h[r] - h[l - 1] * p[r - l + 1]; 
+}
+```
+
+<h2 id = "2">2. 习题</h2>
