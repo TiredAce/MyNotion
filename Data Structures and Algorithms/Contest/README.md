@@ -22,9 +22,6 @@
 
 [第十三届省赛C/C++B组](./lanqiao/13/C_B)
 
-[第十三届省赛C/C++C组](./lanqiao/13/C_C)
-
 <h2 id ="3">
 3. ICPC/CCPC
 </h2>
-
