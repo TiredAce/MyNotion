@@ -6,8 +6,6 @@
 
 #### 课程部分
 
-吴恩达深度学习主要分成了5个部分。
-
 * [Part1 神经网络与深度学习（Neural Networks and Deep Learning)](./Part1)
 * [Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）](./Part2)
 * [Part3 卷积神经网络（Convolutional Neural Networks)](./Part3)
@@ -15,8 +13,6 @@
 * [Part5 结构化机器学习项目（Structuring Machine Learning Projects）](./Part5)
 
 #### 作业部分
-
-本项目作业部分只用来记录编程部分，理论题只记录需要理解的题目。
 
 ##### Part1 神经网络与深度学习（Neural Networks and Deep Learning)
 
@@ -29,6 +25,7 @@
 ##### Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）
 
 * [Week1 1 Quiz - Practical aspects of deep learning](./homework/02/1.第一周%20深度学习的实用层面)
+* [Week2 ]
 
 #### 优秀博客
 
