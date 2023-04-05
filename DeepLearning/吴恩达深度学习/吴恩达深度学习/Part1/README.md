@@ -18,15 +18,14 @@
 
 假设我们要根据房屋的面积，去预测价格，根据目前的数据，我们可以对这些点做线性回归，由于价格不可能为`0`，因此需要对直线做修正，这样的函数称为“修正线性单元”（ReLU）。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322223030296.png" alt="image-20230322223030296" style="zoom:67%;" width="600px" />
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230322223030296.png" width="400px" />
 </div>
 
 实际上的神经网络，就是在大量训练集下，通过计算从x到y的精准映射函数。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322223702026.png" alt="image-20230322223702026" style="zoom:67%;" width="600px"/>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230322223702026.png" alt="image-20230322223702026" width="400px" />
 </div>
+
 
 <h3 id = "1.2">
 1.2 逻辑回归
@@ -36,17 +35,15 @@
 
 例如给出一张图片，你要得到这张图片是否是一只猫。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322230834256.png" alt="image-20230322230834256" style="zoom:50%;" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230322230834256.png" alt="image-20230322230834256" width="600px" /></div>
+
 
 #### 1.2.1 训练样本
 
 在计算机中，保存一张图片，要保存三个独立矩阵，分别对应红、绿、蓝三个颜色通道。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230322232548581.png" alt="image-20230322232548581" style="zoom:50%;" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230322232548581.png" alt="image-20230322232548581" width="600px" /></div>
+
 
 假设计算机张每个独立矩阵是$64 \times 64$,现在将图片中所有的数据放入一个特征矩阵之中，那么这个特征矩阵就有$64 \times 64 \times 3=12288$个元素单元，因此输入的特征向量的维度为`12288`。
 
@@ -72,9 +69,8 @@ $$
 \hat{y} = \sigma(w^Tx+b)
 $$
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323160133930.png" alt="image-20230323160133930" width="400px"  />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323160133930.png" alt="image-20230323160133930" width="600px" /></div>
+
 
 $$
 \sigma(z)=\frac{1}{1 + e^{-z}}
@@ -116,29 +112,25 @@ $$
 
 我们将成本函数的对应的图像展示，如下图所示：
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323164703847.png" alt="image-20230323164703847" width="400px" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323164703847.png" alt="image-20230323164703847" width="600px" /></div>
+
 
 该函数类型为凸函数，凸函数的只存在一个最优解，在其底部。凸函数的这一性质是我们使用逻辑回归的这一特定成本函数$J$的重要原因之一。
 
 为了找到更好的参数值，我们要做的就是用某初始值，初始化$w$和$b$,对于逻辑回归而言，几乎是任意的初始化方法都有效。梯度下降法所做的就是从初始点开始朝最陡的下坡方向走一步。经过多次迭代之后，到达局部最优解或是全局最优解。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165433920.png" alt="image-20230323165433920" width="400px" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323165433920.png" alt="image-20230323165433920" width="600px" /></div>
+
 
 为了更好的说明，我们来看一些函数。如下图所示：
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165640131.png" alt="image-20230323165640131" width="300px"/>
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323165640131.png" alt="image-20230323165640131" width="600px" /></div>
+
 
 我们将$b$维度舍去，留下了$w$维度，得到如上形式的成本函数，我们的目标是找到成本函数的最小值，通过梯度下降法，我们将重复进行如下操作：
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323165853174.png" alt="image-20230323165853174" width="400px" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323165853174.png" alt="image-20230323165853174" width="600px" /></div>
+
 
 在上述公式中有两点需要注意，首先$\alpha$表示学习率，学习率可以控制每次迭代或者是梯度下降法中的步长，至于$\alpha$如何选择在后文叙述。其次这里的导数，这就是对参数$w$的更新或者变化量，当我们编写代码时，我们用`dw`来表示导数。因此我们用$w:=w-\alpha dw$来表示。同理也可以用这种方式表示$b$。
 
@@ -146,9 +138,8 @@ $$
 
 假设我们有这样一个函数$J(a,b,c)=3(a+bc)$,那么我们就能画出这样的流程图。
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323172053093.png" alt="image-20230323172053093" width="500px" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323172053093.png" alt="image-20230323172053093" width="600px" /></div>
+
 
 那么如果我们要计算成本函数$J$相对于每个目标函数的变化情况，我们就能使用*微积分中的链式法则*，方向的通过计算图来计算出变化率。
 
@@ -174,9 +165,8 @@ $$
 L(a,y)=-(yloga+(1-y)log(1-a))
 $$
 
-<div align=center>
-<img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230323175716700.png" alt="image-20230323175716700" width="600px" />
-</div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230323175716700.png" alt="image-20230323175716700" width="600px" /></div>
+
 通过反向传播法，得到`da`、`dz`等等。
 
 #### 1.2.8 向量化
@@ -185,13 +175,13 @@ $$
 
 举个例子，如果按照常规的代码去计算成本函数，代码的编写如下：
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230324214720030.png" alt="image-20230324214720030" width="800px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230324214720030.png" alt="image-20230324214720030" width="600px" /></div>
 
 其中能看到外层的`for`循环用来遍历所有的样本，内层的循环用来遍历所有的参数。
 
 为了改进上述代码，我们做出以下修正，为了修正内层的循环，我们不会去显式地把`dw1`、`dw2`等等初始化成`0`。通常采用`dw=np.zeros((n_x, 1))`的方式定义一个矩阵。这样就不用对单个变量进行运算。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230324215529124.png" alt="image-20230324215529124" width="800px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230324215529124.png" alt="image-20230324215529124" width="600px" /></div>
 
 接下来解释如何优化掉第一层循环，之前我们定义过了训练样本矩阵$X$，我们可以通过如下变换得到$Z$:
 $$
@@ -207,9 +197,10 @@ z = np.dot(w.T, x) + b
 
 最后通过激活函数得到$A$。这样的方法十分高效。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325110142311.png" alt="image-20230325110142311" width="800px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325110142311.png" alt="image-20230325110142311" width="600px" /></div>
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325110716771.png" alt="image-20230325110716771" width="800px" /></div>
+
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325110716771.png" alt="image-20230325110716771" width="600px" /></div>
 
 当然在最后迭代时，无法避免使用`for`循环，这里的`for`循环无法优化。
 
@@ -217,7 +208,7 @@ z = np.dot(w.T, x) + b
 
 以下举出一个实际的例子，通过使用`python`的广播功能来实现。比如给出如下一个矩阵，为了计算得出每个食物中的卡路里来自各个成分的比例。 
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325130423560.png" alt="image-20230325130423560" width="800px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325130423560.png" alt="image-20230325130423560" width="600px" /></div>
 
 计算代码如下：
 
@@ -238,7 +229,7 @@ percentage
 
 因此能得出`python`广播机制，如下图所示：
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/1679721411888.png" alt="1679721411888"  width="800px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/1679721411888.png" alt="1679721411888" width="600px" /></div>
 
 #### 1.2.10 关于成本函数的证明
 
@@ -250,26 +241,26 @@ $$
 log(p(y|x))=(ylog\hat{y}+(1-y)log(1-\hat{y}))
 $$
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325134708050.png" alt="image-20230325134708050"  width="800px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325134708050.png" alt="image-20230325134708050" width="600px" /></div>
 
 由于逻辑回归中，我们需要最小化损失函数，因此需要在$log(p(y|x))$前添加一个符号，用来表示数值越小越好，即最小化下面这个式子：
 
 $$L(\hat{y},y)=-(ylog\hat{y}+(1-y)log(1-\hat{y}))$$
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325140416849.png" alt="image-20230325140416849" style="zoom:50%;" width="1800px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325140416849.png" alt="image-20230325140416849" width="600px" /></div>
 
 <h3 id = "1.3">
 1.3 神经网络
 </h3>
 首先申明对于`(1)`这样的上标，表示训练样本的编号；对于`[1]`这样的上标，表示神经网络的第几层。在神经网络中关键要掌握这样一种直觉，就是在计算完`z`之后，就要直接使用激活函数计算`a`。如下这个神经网络系统实际上就是运用了两次逻辑回归。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325141217192.png" alt="image-20230325141217192" style="zoom:50%;" width="1800px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325141217192.png" alt="image-20230325141217192" width="600px" /></div>
 
 #### 1.3.1 神经网络的表示
 
 如下图所示的是一个”双层神经网络“，在计算神经网络层数的时候，我们一般不讲输入层加入计算，因此，图中的神经网络由一层隐藏层和一层输出层组成。输入层是第`0`层，隐藏层是第`1`层，输出层是第`2`层。在隐藏层中`w`是一个$4\times 3$的矩阵，`4`表示该层有四个结点或是四个隐藏单元，`3`则代表该样本有三个特征。同理其他的参数矩阵也是这样计算的。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325142731200.png" alt="image-20230325142731200" width="900px" /></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325142731200.png" alt="image-20230325142731200" width="600px" /></div>
 
 #### 1.3.2 神经网络的计算
 
@@ -281,11 +272,11 @@ $$
 
 其他隐藏结点同理可得：
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/5c6d86f72f69b6cfd1cb7fae11e3811.jpg" alt="5c6d86f72f69b6cfd1cb7fae11e3811"  width="800px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/5c6d86f72f69b6cfd1cb7fae11e3811.jpg" alt="5c6d86f72f69b6cfd1cb7fae11e3811" width="600px" /></div>
 
 列出这些式子可以得到，`4`行等式，可以通过矩阵相乘的方式来计算所有的结果。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/02a3acb33e29e244dc52ea5841da9c8.jpg" alt="02a3acb33e29e244dc52ea5841da9c8"  width="800px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/02a3acb33e29e244dc52ea5841da9c8.jpg" alt="02a3acb33e29e244dc52ea5841da9c8" width="600px" /></div>
 
 #### 1.3.3 激活函数
 
@@ -296,7 +287,7 @@ $$tanh(x) = \frac{e^x-e^{-x}}{e^x + e^{-x}}$$
 
 相比较于`Sigmoid`，上述这种函数的值域范围更大。`Tanh`也可以作为开关调节输入信息。这种函数通常比`Sigmoid`函数效果要好。这有类似数据重心化的效果，`tanh`函数几乎在所有场合都更优越，因此我们不再使用`Sigmoid`激活函数。使用`Sigmoid`函数，只用于二分类的模型，这种情况下，可以使用`Sigmoid`激活函数做为输出层。
 
-<div align=center><img src="./../assets/blog_res/Part1 神经网络和深度学习.assets/image-20230325153206455.png" alt="image-20230325153206455" width="600px"/></div>
+<div align=center><img src="./../assets/blog_res/README.assets/image-20230325153206455.png" alt="image-20230325153206455" width="600px" /></div>
 
 但是从上图可以看出，`Sigmoid`和`tanh`函数都存在着些缺点就是如果`z`非常大或者非常小，那么导数的梯度或者说这个函数的斜率可能就很小。这样会拖慢梯度下降法的效率。
 

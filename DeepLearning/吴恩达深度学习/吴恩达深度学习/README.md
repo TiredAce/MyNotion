@@ -8,27 +8,27 @@
 
 吴恩达深度学习主要分成了5个部分。
 
-* [Part1 神经网络与深度学习（Neural Networks and Deep Learning)](https://github.com/TiredAce/MyNotion/blob/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/Part1%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%92%8C%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0.md)
-* [Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）](https://github.com/TiredAce/MyNotion/blob/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/Part2%20%E6%94%B9%E5%96%84%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C.md)
-* [Part3 卷积神经网络（Convolutional Neural Networks)]()
-* [Part4 序列模型与循环神经网络（Sequence Models）]()
-* [Part5 结构化机器学习项目（Structuring Machine Learning Projects）]()
+* [Part1 神经网络与深度学习（Neural Networks and Deep Learning)](./Part1)
+* [Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）](./Part2)
+* [Part3 卷积神经网络（Convolutional Neural Networks)](./Part3)
+* [Part4 序列模型与循环神经网络（Sequence Models）](./Part4)
+* [Part5 结构化机器学习项目（Structuring Machine Learning Projects）](./Part5)
 
 #### 作业部分
 
 本项目作业部分只用来记录编程部分，理论题只记录需要理解的题目。
 
-##### Part1
+##### Part1 神经网络与深度学习（Neural Networks and Deep Learning)
 
-* [Week 2 Quiz - Neural Network Basics](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/01.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/2.%E7%AC%AC%E4%BA%8C%E5%91%A8%20%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%E5%9F%BA%E7%A1%80)
+* [Week 2 Quiz - Neural Network Basics](./homework/01/2.第二周%20神经网络基础)
 
-* [Week 3 Quiz - Shallow Neural Networks](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/01.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/3.%E7%AC%AC%E4%B8%89%E5%91%A8%20%E6%B5%85%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)
+* [Week 3 Quiz - Shallow Neural Networks](./homework/01/3.第三周%20浅层神经网络)
 
-* [Week 4 Quiz - Key concepts on Deep Neural Networks](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/01.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C/4.%E7%AC%AC%E5%9B%9B%E5%91%A8%20%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C)
+* [Week 4 Quiz - Key concepts on Deep Neural Networks](./homework/4.第四周%20深层神经网络)
 
-##### Part2
+##### Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）
 
-* [Week1 1 Quiz - Practical aspects of deep learning](https://github.com/TiredAce/MyNotion/tree/master/DeepLearing/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/%E5%90%B4%E6%81%A9%E8%BE%BE%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/homework/02.%E6%94%B9%E5%96%84%E6%B7%B1%E5%B1%82%E7%A5%9E%E7%BB%8F%E7%BD%91%E7%BB%9C%EF%BC%9A%E8%B6%85%E5%8F%82%E6%95%B0%E8%B0%83%E8%AF%95%E3%80%81%E6%AD%A3%E5%88%99%E5%8C%96%E4%BB%A5%E5%8F%8A%E4%BC%98%E5%8C%96/1.%E7%AC%AC%E4%B8%80%E5%91%A8%20%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9A%84%E5%AE%9E%E7%94%A8%E5%B1%82%E9%9D%A2)
+* [Week1 1 Quiz - Practical aspects of deep learning](./homework/02/1.第一周%20深度学习的实用层面)
 
 #### 优秀博客
 
