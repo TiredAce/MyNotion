@@ -1,6 +1,5 @@
 package com.coreOfJava.part_5;
 
-import sun.nio.cs.ext.MacGreek;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,7 +10,6 @@ public class Main {
         Employee e = new Employee();
 
 //        Manager boss2 = (Manager) staff[1]; 会出现异常，因为staff[1]不是Manager类型
-
     }
 }
 

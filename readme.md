@@ -47,6 +47,11 @@
 * [王道计算机组成原理](./王道/计组)
 * [王道数据结构](./王道/数据结构)
 
+## Machine Learning
+
+* [西瓜书 | 机器学习周志华](./MachineLearning/西瓜书)
+* [数学建模总结](./数学建模)
+
 ## Deep Learning
 
 * [Coursera | DeepLearning](./DeepLearning/吴恩达深度学习/吴恩达深度学习)
