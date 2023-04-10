@@ -49,8 +49,7 @@
 
 ## Machine Learning
 
-* [西瓜书 | 机器学习周志华](./MachineLearning/西瓜书)
-* [数学建模总结](./数学建模)
+* [机器学习周志华](./MachineLearning/机器学习周志华)
 
 ## Deep Learning
 
