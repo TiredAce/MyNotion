@@ -2,7 +2,7 @@
 
 ### 思维导图
 
-![第6章 体系结构](./../assets/blog_res/README.assets/第6章 体系结构.png)
+![map6](./../assets/blog_res/README.assets/map6.png)
 
 >[6.2 汇编语言](#6.2)
 >
