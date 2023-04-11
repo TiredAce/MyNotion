@@ -141,11 +141,11 @@ System.out.println(currencyFormatter.format(x));
 
 对于基本数据类型采用如下调用方式：
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230227221626963.png" alt="image-20230227221626963" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230227221626963.png" alt="image-20230227221626963" style="zoom:67%;" />
 
 对于对象引用，参数就不同了，可以很容易的利用下面这个方法修改对象的内容：
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230227221759323.png" alt="image-20230227221759323" style="zoom:50%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230227221759323.png" alt="image-20230227221759323" style="zoom:50%;" />
 
 可以看到，实现一个改变对象参数状态的方法是完全可以的。方法得到的是对象引用的副本，原来的对象引用和这个副本都应用同一个对象。
 
@@ -281,15 +281,15 @@ exit(0);    // System.exit
 
 1. 使用`IDEA`打包`JAR`文件：
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230313210435602.png" alt="image-20230313210435602" style="zoom: 67%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230313210435602.png" alt="image-20230313210435602" style="zoom: 67%;" />
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230313210505910.png" alt="image-20230313210505910" style="zoom:50%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230313210505910.png" alt="image-20230313210505910" style="zoom:50%;" />
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230313210546627.png" alt="image-20230313210546627" style="zoom: 33%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230313210546627.png" alt="image-20230313210546627" style="zoom: 33%;" />
 
 最后构建工件就可得到`jar`文件：
 
-![image-20230313210658076](./../assets/blog_res/第4章 对象与类.assets/image-20230313210658076.png)
+![image-20230313210658076](./../../assets/blog_res/第4章 对象与类.assets/image-20230313210658076.png)
 
 2. 在`idea`中使用`JAR`包
 
@@ -299,7 +299,7 @@ exit(0);    // System.exit
 
 在项目结构中的模块中选定已经导入的模块，即可删除：
 
-<img src="./../assets/blog_res/第4章 对象与类.assets/image-20230313211355351.png" alt="image-20230313211355351" style="zoom: 33%;" />
+<img src="./../../assets/blog_res/第4章 对象与类.assets/image-20230313211355351.png" alt="image-20230313211355351" style="zoom: 33%;" />
 
 <h3 id = "4.9">
 4.9 文档注释

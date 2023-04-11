@@ -12,7 +12,7 @@
 
 #### Java
 
-* [Core of Java I](./Java/Java核心思想/Java核心思想)
+* [Core of Java I](./Java/Java核心技术/Java核心思想)
 
 ## 计算机基础
 
@@ -49,7 +49,7 @@
 
 ## Machine Learning
 
-* [机器学习周志华](./MachineLearning/机器学习周志华)
+* [手撕西瓜书！！](./MachineLearning/机器学习周志华)
 
 ## Deep Learning
 

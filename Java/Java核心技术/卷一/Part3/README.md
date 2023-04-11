@@ -67,11 +67,11 @@ s.equals(t);
 
 以下展示相关的`String API`:
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163356750.png" alt="image-20230224163356750" style="zoom:58%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163356750.png" alt="image-20230224163356750" style="zoom:58%;" />
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163422773.png" alt="image-20230224163422773" style="zoom: 80%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163422773.png" alt="image-20230224163422773" style="zoom: 80%;" />
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163520038.png" alt="image-20230224163520038" style="zoom: 78%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163520038.png" alt="image-20230224163520038" style="zoom: 78%;" />
 
 #### 3.6.9 构建字符串
 
@@ -89,9 +89,9 @@ StringBuilder builder = new StringBuilder();
 
 以下列举常用的`API`:
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213444718.png" alt="image-20230226213444718" style="zoom: 60%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213444718.png" alt="image-20230226213444718" style="zoom: 60%;" />
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213501125.png" alt="image-20230226213501125" style="zoom: 67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213501125.png" alt="image-20230226213501125" style="zoom: 67%;" />
 
 <h3 id= "3.7">3.7 输入与输出
 </h3>
@@ -136,9 +136,9 @@ import java.util.*;
 
 常见的`API`如下：
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222032296.png" alt="image-20230226222032296" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222032296.png" alt="image-20230226222032296" style="zoom:67%;" />
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222046793.png" alt="image-20230226222046793" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222046793.png" alt="image-20230226222046793" style="zoom:67%;" />
 
 #### 3.7.3 文件输入与输出
 
@@ -207,9 +207,9 @@ BigInteger d = c.multiply(b.add(BigInteger.valueOf(2)));
 
 以下是大数常用的`API`：
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224509503.png" alt="image-20230226224509503" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224509503.png" alt="image-20230226224509503" style="zoom:67%;" />
 
-![image-20230226224519087](./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224519087.png)
+![image-20230226224519087](./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224519087.png)
 
 <h3 id = "3.10">3.10 数组
 </h3>
@@ -271,15 +271,15 @@ Arrays.sort(a)
 
 以下是常用的`API`:
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231659153.png" alt="image-20230226231659153" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231659153.png" alt="image-20230226231659153" style="zoom:67%;" />
 
-![image-20230226231711091](./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231711091.png)
+![image-20230226231711091](./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231711091.png)
 
 #### 3.10.8 不规则数组
 
 `Java`实际上没有多维数组，只有一维数组。多维数组被解释为“数组的数组”。表达式`balances[i]`引用第`i`个子数组，也就是表格的第`i`行。它本身是一个数组。
 
-<img src="./../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226232719268.png" alt="image-20230226232719268" style="zoom:67%;" />
+<img src="./../../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226232719268.png" alt="image-20230226232719268" style="zoom:67%;" />
 
 由于可以单独的访问数组的某一行，所以可以让两行交换：
 

@@ -1,4 +1,4 @@
-package com.coreOfJava.part_5;
+package com.coreOfJava.part5;
 
 
 public class Main {

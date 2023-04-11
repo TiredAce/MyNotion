@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6461eaa-24f6-4073-b61b-ae31e5983295" name="变更" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Code.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/A.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/B.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/Manager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Code/com/coreOfJava/part_5/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/coreOfJava/part_5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java核心思想/第10章 图形用户界面程序设计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java核心思想/第3章 Java的基本程序设计结构.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java核心思想/第4章 对象与类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Java核心思想/第5章 继承.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MindMap/第5章 继承.xmind" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163356750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163422773.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230224163520038.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213444718.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226213501125.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222032296.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226222046793.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224509503.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226224519087.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231659153.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226231711091.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第3章 Java的基本程序设计结构.assets/image-20230226232719268.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230227221626963.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230227221759323.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313210412358.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313210435602.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313210505910.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313210546627.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313210658076.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/blog_res/第4章 对象与类.assets/image-20230313211355351.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../readme.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Ns7huCkE2xokgWCchvObJwE54s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Java核心技术/Code" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.coreOfJava.part_5" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.coreOfJava.part_5.Main" />
+      <module name="Code" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.coreOfJava.part_5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="c6461eaa-24f6-4073-b61b-ae31e5983295" name="变更" comment="" />
+      <created>1680441060334</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680441060334</updated>
+      <workItem from="1680441061558" duration="375000" />
+      <workItem from="1680441453311" duration="6166000" />
+      <workItem from="1680967247410" duration="821000" />
+      <workItem from="1681203604064" duration="979000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
