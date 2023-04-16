@@ -25,7 +25,10 @@
 ##### Part2 改善深层神经网络：超参数调整，正则化，最优化（Hyperparameter Tuning）
 
 * [Week1 1 Quiz - Practical aspects of deep learning](./homework/02/1.第一周%20深度学习的实用层面)
-* [Week2 ]
+* [Week2 第二周 优化算法](./homework/02/2.第二周%20优化算法)
+* [Week3 第三周 超参数调试、Batch正则化和程序框架](./homework/02/3.第三周%20超参数调试、Batch正则化和程序框架)
+
+##### Part3 卷积神经网络（Convolutional Neural Networks)
 
 #### 优秀博客
 
