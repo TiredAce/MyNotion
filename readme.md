@@ -25,12 +25,15 @@
 
 ##### Calculus
 
+* [Essence of calculus]()
+
 * [Thomas Calculus]()
 
 ##### Linear Algebra
 
-* [Introduction to Linear Algebra](./Math/Introduction%20to%20Linear%20Algebra)
 * [Essence of linear algebra](./Math/Essence%20of%20linear%20algebra)
+
+* [Introduction to Linear Algebra](./Math/Introduction%20to%20Linear%20Algebra)
 
 ##### Discrete Mathematics
 
