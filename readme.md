@@ -14,6 +14,13 @@
 
 * [Core of Java I](./Java/Java核心技术/Java核心思想)
 
+### Python
+
+* [numpy基础](./Python/numpy)
+* [matplotlib绘图](./Python/matplotlib)
+* [Sklearn](./Python/Sklearn)
+* [Pandas](./Python/Pandas)
+
 ## 计算机基础
 
 ### Tools
