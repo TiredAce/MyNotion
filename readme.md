@@ -20,6 +20,7 @@
 * [matplotlib绘图](./Python/matplotlib)
 * [Sklearn](./Python/Sklearn)
 * [Pandas](./Python/Pandas)
+* [Pytorch](./Python/Pytorch)
 
 ## 计算机基础
 
