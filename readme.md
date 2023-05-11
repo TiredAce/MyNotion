@@ -21,6 +21,7 @@
 * [Sklearn](./Python/Sklearn)
 * [Pandas](./Python/Pandas)
 * [Pytorch](./Python/Pytorch)
+* [networkx](./Python/networkx)
 
 ## 计算机基础
 
@@ -59,7 +60,7 @@
 
 ### SMC
 
-* [单片机原理及应用教程](./SCM/单片机原理及应用教程/单片机原理及应用教程)
+* [单片机原理及应用教程](./SCM/单片机原理及应用教程)
 
 ### 王道408
 

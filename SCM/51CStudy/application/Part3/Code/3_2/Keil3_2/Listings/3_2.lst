@@ -1,0 +1,71 @@
+C51 COMPILER V9.54   3_2                                                                   05/07/2023 16:24:42 PAGE 1   
+
+
+C51 COMPILER V9.54, COMPILATION OF MODULE 3_2
+OBJECT MODULE PLACED IN .\Objects\3_2.obj
+COMPILER INVOKED BY: F:\Keil5\C51\BIN\C51.EXE 3_2.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\3_2.lst
+                    -) TABS(2) OBJECT(.\Objects\3_2.obj)
+
+line level    source
+
+   1          #include <reg51.h>
+   2          #define uint unsigned int
+   3          #define uchar unsigned char
+   4            
+   5          sbit data1 = P3^4;
+   6          sbit iclk = P3^6;
+   7          sbit oclk = P3^5;
+   8          
+   9          uchar i, j, k, m;
+  10          
+  11          void delay()
+  12          {
+  13   1        uint a, b;
+  14   1        for (a = 0; a < 10; a ++)
+  15   1          for (b = 0; b < 110; b ++);
+  16   1      }
+  17          
+  18          void xiaoshu(uchar m)
+  19          {
+  20   1        uchar n;
+  21   1        n = m;
+  22   1        oclk = 0;
+  23   1        iclk = 0;
+  24   1        for (i = 0; i < 8; i ++)
+  25   1        {
+  26   2          n <<= 1;
+  27   2          data1 = CY;
+  28   2          iclk = 1;
+  29   2          delay();
+  30   2          iclk = 0;
+  31   2        }
+  32   1        oclk = 1;
+  33   1        delay();
+  34   1        oclk = 0;
+  35   1      }
+  36          
+  37          void main()
+  38          {
+  39   1        i = 10;
+  40   1        j = 6;
+  41   1        P2 = i / j;
+  42   1        k = ((i % j) * 10) / j;
+  43   1        xiaoshu(k);
+  44   1        while (1);
+  45   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =    111    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =      4    ----
+   IDATA SIZE       =   ----    ----
+C51 COMPILER V9.54   3_2                                                                   05/07/2023 16:24:42 PAGE 2   
+
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

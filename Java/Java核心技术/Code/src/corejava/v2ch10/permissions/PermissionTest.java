@@ -1,6 +1,5 @@
 package corejava.v2ch10.permissions;
 
-'package permissions;
 
 import java.awt.*;
 

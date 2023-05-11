@@ -12,7 +12,7 @@ public class ThreadTest
 
    public static void main(String[] args)
    {
-      var bank = new Bank(4, 100000);
+      Bank bank = new Bank(4, 100000);
       Runnable task1 = () ->
       {
          try
