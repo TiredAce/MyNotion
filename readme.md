@@ -36,8 +36,6 @@
 
 * [Essence of calculus]()
 
-* [Thomas Calculus]()
-
 ##### Linear Algebra
 
 * [Essence of linear algebra](./Math/Essence%20of%20linear%20algebra)
@@ -67,15 +65,11 @@
 * [王道计算机组成原理](./王道/计组)
 * [王道数据结构](./王道/数据结构)
 
-## Machine Learning
-
-* [手撕西瓜书！！](./MachineLearning/机器学习周志华)
-
-## Deep Learning
+## ML&DL
 
 * [Coursera | DeepLearning](./DeepLearning/吴恩达深度学习/吴恩达深度学习)
 * [动手学深度学习](./DeepLearning/动手学深度学习)
-* [深入浅出神经网络](./DeepLearning/深入浅出图神经网络)
+* [GNN代码实现](./DeepLearning/GNN)
 
 ## Computer Vision
 
