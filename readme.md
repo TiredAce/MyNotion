@@ -69,13 +69,13 @@
 
 * [Coursera | DeepLearning](./DeepLearning/吴恩达深度学习/吴恩达深度学习)
 * [动手学深度学习](./DeepLearning/动手学深度学习)
+* [OpenCV3编程入门](./openCV/openCV编程入门/openCV3编程入门)
+
+## ML with Graphs
+
 * [GNN代码实现](./DeepLearning/GNN)
 
-## Computer Vision
-
-### OpenCV
-
-* [OpenCV3编程入门](./openCV/openCV编程入门/openCV3编程入门)
+* [Stanford CS224W](./DeepLearning/CS224W)
 
 ## 应用开发
 
@@ -90,3 +90,4 @@
 
 ---
 
+**现实的引力太沉重了，任何超脱飞扬的思想都会砰然坠地...**
